@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00E4FF"
+    android:orientation="vertical"
+    tools:context=".Frag1">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I shall always keep them, and it will make me very happy to think that you found them, on that far away island, from which Columbus sailed to discover our dear country. \n\n That type of heartache is rough, but I came to peace with it and was pretty happy with my expulsion, until a few days ago. \n\n I could not keep pace with all these literary folk as they glanced from subject to subject and entered into deep dispute, or made conversation sparkle with epigrams and happy witticisms." />
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Color" />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="250dp"
+        android:layout_height="250dp" />
+
+</LinearLayout>
